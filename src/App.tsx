@@ -8,7 +8,7 @@ const questions = [
 ];
 
 export default function App() {
-  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [_answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (id: number, value: string) => {
